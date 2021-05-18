@@ -10,7 +10,7 @@
         android:id="@+id/imageView4"
         android:layout_width="75dp"
         android:layout_height="66dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="156dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="276dp"
         android:layout_height="53dp"
-        android:layout_marginTop="288dp"
+        android:layout_marginTop="244dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
@@ -129,7 +129,7 @@
         app:layout_constraintVertical_bias="0.457" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txt_openRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
