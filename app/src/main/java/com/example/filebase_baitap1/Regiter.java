@@ -25,9 +25,9 @@ public class Regiter extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regiter);
-
-        edit_email = findViewById(R.id.edit_email);
         edit_name = findViewById(R.id.edit_name);
+        edit_email = findViewById(R.id.edit_email);
+
         edit_password = findViewById(R.id.editpassword);
         edit_password_1 = findViewById(R.id.edit_password1);
 
@@ -48,13 +48,14 @@ public class Regiter extends AppCompatActivity {
                 //reference = rootNode.getReference();
                 reference = rootNode.getReference("users");
                 String name = edit_name.getText().toString();
-                String email = edit_name.getText().toString();
+                String email = edit_email.getText().toString();
                 String password = edit_password.getText().toString();
                 String password1 = edit_password_1.getText().toString();
                 //int i = ramdomNumber();
 
                 UserHelperClass helperClass = new UserHelperClass(name,email,password,password1);
-                reference.child(email).setValue(helperClass);
+                reference.child(name).setValue(helperClass);
+                Toast.makeText(Regiter.this,"Dang ki thanh cong",Toast.LENGTH_SHORT).show();
             }
         });
     }

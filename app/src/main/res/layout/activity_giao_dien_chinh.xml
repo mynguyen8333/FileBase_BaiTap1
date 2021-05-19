@@ -10,13 +10,82 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello word"
-        android:textColor="#000000"
-        android:textSize="20sp"
+        android:text="PLEASE TOUCH ONE!"
+        android:textColor="#2D58F3"
+        android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.345" />
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageButton
+        android:id="@+id/btnimg_xanh"
+        android:layout_width="142dp"
+        android:layout_height="126dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468"
+        app:srcCompat="@drawable/mauxanhla" />
+
+    <ImageButton
+        android:id="@+id/btnimg_vang"
+        android:layout_width="134dp"
+        android:layout_height="143dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242"
+        app:srcCompat="@drawable/mauvang" />
+
+    <ImageButton
+        android:id="@+id/btnimg_do"
+        android:layout_width="122dp"
+        android:layout_height="134dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/btnimg_xanh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintStart_toEndOf="@+id/btnimg_xanh"
+        app:layout_constraintTop_toTopOf="@+id/btnimg_xanh"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/maudo" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="731dp"
+        android:layout_height="66dp"
+        android:background="#1C92EF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnimg_vang"
+        app:layout_constraintVertical_bias="0.983" />
+
+    <Button
+        android:id="@+id/btnfinish"
+        android:layout_width="312dp"
+        android:layout_height="74dp"
+        android:background="@drawable/background_button_registry"
+        android:text="FINISH"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnimg_vang"
+        app:layout_constraintVertical_bias="0.689" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
