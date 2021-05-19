@@ -40,7 +40,7 @@
         app:srcCompat="@drawable/mauxanhla" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editname_signin"
         android:layout_width="276dp"
         android:layout_height="53dp"
         android:layout_marginTop="244dp"
@@ -53,7 +53,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editpass_singin"
         android:layout_width="276dp"
         android:layout_height="53dp"
         android:layout_marginTop="32dp"
@@ -61,14 +61,14 @@
         android:hint="Type password"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editname_signin"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editname_signin"
+        app:layout_constraintTop_toBottomOf="@+id/editname_signin"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSignin_signin"
         android:layout_width="277dp"
         android:layout_height="45dp"
         android:layout_marginTop="28dp"
@@ -76,8 +76,8 @@
         android:background="@drawable/background_button_signin"
         android:textColor="#FDFDFD"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintStart_toStartOf="@+id/editpass_singin"
+        app:layout_constraintTop_toBottomOf="@+id/editpass_singin" />
 
     <TextView
         android:id="@+id/textView"
@@ -86,9 +86,9 @@
         android:layout_marginTop="20dp"
         android:text="FORGOT PASSWORD?"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintEnd_toEndOf="@+id/btnSignin_signin"
+        app:layout_constraintStart_toStartOf="@+id/btnSignin_signin"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignin_signin" />
 
     <TextView
         android:id="@+id/textView2"
@@ -98,10 +98,10 @@
         android:text="SIGN  IN WITH GOOGLE"
         android:textColor="#2D58F3"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/btnSignin_signin"
         app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintStart_toStartOf="@+id/btnSignin_signin"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignin_signin" />
 
     <View
         android:id="@+id/view"
